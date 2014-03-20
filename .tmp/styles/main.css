@@ -19858,13 +19858,12 @@ td.visible-print {
   }
 
   line {
-    font-family: \0000312;
+    font-family: \0000316;
   }
 }
 
-.pxImage {
-  width: 200px;
-  height: 200px;
+.modal-lg {
+  width: 85%;
 }
 
 @media -sass-debug-info {
@@ -19873,7 +19872,21 @@ td.visible-print {
   }
 
   line {
-    font-family: \0000316;
+    font-family: \0000320;
+  }
+}
+
+.imageContainerWidth {
+  padding: 0 10px 0 10px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/jens\/programming\/500pxjs\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000325;
   }
 }
 
@@ -19889,13 +19902,12 @@ td.visible-print {
   }
 
   line {
-    font-family: \0000320;
+    font-family: \0000329;
   }
 }
 
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -19906,7 +19918,7 @@ body {
   }
 
   line {
-    font-family: \0000328;
+    font-family: \0000336;
   }
 }
 
@@ -19925,7 +19937,7 @@ body {
   }
 
   line {
-    font-family: \0000334;
+    font-family: \0000342;
   }
 }
 
@@ -19940,7 +19952,7 @@ body {
   }
 
   line {
-    font-family: \0000338;
+    font-family: \0000346;
   }
 }
 
@@ -19959,7 +19971,7 @@ body {
   }
 
   line {
-    font-family: \0000347;
+    font-family: \0000355;
   }
 }
 
@@ -19975,7 +19987,7 @@ body {
   }
 
   line {
-    font-family: \0000353;
+    font-family: \0000361;
   }
 }
 
@@ -19991,7 +20003,7 @@ body {
   }
 
   line {
-    font-family: \0000358;
+    font-family: \0000366;
   }
 }
 
@@ -20006,7 +20018,7 @@ body {
   }
 
   line {
-    font-family: \0000361;
+    font-family: \0000369;
   }
 }
 
@@ -20023,7 +20035,7 @@ body {
   }
 
   line {
-    font-family: \0000368;
+    font-family: \0000376;
   }
 }
 
@@ -20037,7 +20049,7 @@ body {
   }
 
   line {
-    font-family: \0000370;
+    font-family: \0000378;
   }
 }
 
@@ -20054,7 +20066,7 @@ body {
     }
 
     line {
-      font-family: \0000377;
+      font-family: \0000385;
     }
 }
 
@@ -20070,7 +20082,7 @@ body {
     }
 
     line {
-      font-family: \0000384;
+      font-family: \0000392;
     }
 }
 
@@ -20089,7 +20101,7 @@ body {
     }
 
     line {
-      font-family: \0000390;
+      font-family: \0000398;
     }
 }
 
@@ -20105,7 +20117,7 @@ body {
     }
 
     line {
-      font-family: \0000395;
+      font-family: \00003103;
     }
 }
 

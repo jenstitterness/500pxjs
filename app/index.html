@@ -27,10 +27,11 @@
         <![endif]-->
 
 
-        <div class="container">
+        <div class="container-fluid imageContainerWidth">
             <div class="header">
                 
                 <ul class="nav nav-pills pull-right">
+                    <li><a id="homeButton" href="#">Home</a></li>
                     <li><a id="profileButton" href="#">profile</a></li>
                     <li><a id="loginButton" href="#">login</a></li>
                 </ul>
@@ -39,44 +40,76 @@
             </div>
 
             <div class="row">
+                <button type="button" class="previousPageButton btn btn-info">Previous Page</button>
+                <button type="button" class="nextPageButton btn btn-success">Next Page</button>
                 <select id="level">
                     <option selected="selected">Popular</option>
                     <option>Upcoming</option>
                     <option>Fresh</option>
                     <option>Editor's Choice</option>
                 </select>
+
+                <select id="category">
+                    <option selected="selected">All Categories</option>
+                    <option>Uncategorized</option>
+                    <option>Abstract</option>
+                    <option>Animals</option>
+                    <option>Black and White</option>
+                    <option>Celebrities</option>
+                    <option>City and Architecture</option>
+                    <option>Commercial</option>
+                    <option>Concert</option>
+                    <option>Family</option>
+                    <option>Fashion</option>
+                    <option>Film</option>
+                    <option>Fine Art</option>
+                    <option>Food</option>
+                    <option>Journalism</option>
+                    <option>Landscapes</option>
+                    <option>Macro</option>
+                    <option>Nature</option>
+                    <option>Nude</option>
+                    <option>People</option>
+                    <option>Performing Arts</option>
+                    <option>Sport</option>
+                    <option>Still Life</option>
+                    <option>Street</option>
+                    <option>Transportation</option>
+                    <option>Travel</option>
+                    <option>Underwater</option>
+                    <option>Urban Exploration</option>
+                    <option>Wedding</option>
+                </select>
             </div>
 
+<br />
             <div class="row photoContainer"></div>
 
             </div>
 
             <div class="footer">
                 <p>♥ Jens Titterness</p>
-                <button type="button" class="previousPageButton btn btn-default">Previous Page</button>
-                <button type="button" class="nextPageButton btn btn-default">Next Page</button>
             </div>
 
         </div>
 
 
-        <div class="modal fade">
-          <div class="modal-dialog">
+        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Modal title</h4>
+                <h4 class="modal-title" id="myModalLabel"></h4>
               </div>
               <div class="modal-body">
-                <p>One fine body&hellip;</p>
+                <div class="modalImageContainer"></div>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
               </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
+            </div>
+          </div>
+        </div>
 
 
         <!-- build:js scripts/vendor.js -->

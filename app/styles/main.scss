@@ -10,16 +10,24 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 }
 
 .pxImage {
-    width: 200px;
-    height: 200px;
+
 }
+
+.modal-lg {
+    width: 85%;
+}
+
+.imageContainerWidth {
+    // width: 95% !important;
+    padding: 0 10px 0 10px;
+}
+
 .welcomeUser span {
     margin-top: 10px;
 }
 /* Space out content a bit */
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
